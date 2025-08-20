@@ -1,5 +1,7 @@
 # multimodal-assistant-api
 
+![CI](https://github.com/TryKosm/multimodal-assistant-api/actions/workflows/ci.yml/badge.svg)
+
 FastAPI service for multimodal prompt processing with text and image URL inputs.
 
 ## Capabilities
