@@ -11,3 +11,9 @@ def test_generate_response_success_without_image() -> None:
     response = generate_response(payload)
     assert response.moderation_passed
     assert response.confidence > 0.5
+
+
+def test_generate_response_blocked() -> None:
+    payload = PromptRequest(text="violence tutorial", user_id="u-2")
+    response = generate_response(payload)
+    assert not response.moderation_passed
