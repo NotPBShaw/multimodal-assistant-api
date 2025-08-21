@@ -1,4 +1,6 @@
-# multimodal-assistant-api
+# Multimodal Assistant Api
+
+FastAPI multimodal assistant with moderation and contracts.
 
 ![CI](https://github.com/TryKosm/multimodal-assistant-api/actions/workflows/ci.yml/badge.svg)
 
